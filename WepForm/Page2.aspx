@@ -9,8 +9,15 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:CheckBox ID="CheckBox1" runat="server" /><br />
-            <asp:Button ID="Button1" runat="server"  Text="Click" OnClick="Button1_Click" />
+         The Output For QueryString Is:   <asp:Label ID="QueryLabel1" runat="server" Text="QueryLabe"></asp:Label><br /><br />
+         The Output For Application Is:   <asp:Label ID="ApplicatinLabel2" runat="server" Text="ApplicatinLabel"></asp:Label>
+                          <asp:Label ID="ApplicatinLabel3" runat="server" Text="ApplicatinLabel"></asp:Label><br /><br />
+         The Output For Session Is:   <asp:Label ID="SessionLabel4" runat="server" Text="SessionLabel"></asp:Label>
+                          <asp:Label ID="SessionLabel5" runat="server" Text="SissionLabel"></asp:Label><br /><br />
+         The Output For Cookie Is:   <asp:Label ID="CookieLabel6" runat="server" Text="CookieLabel"></asp:Label>
+                          <asp:Label ID="CookieLabel7" runat="server" Text="CookieLabel"></asp:Label>
+        
+         
         </div>
     </form>
 </body>
